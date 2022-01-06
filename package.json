@@ -6,7 +6,7 @@
   "dependencies": {
     "@oclif/color": "^1.0.0",
     "@oclif/core": "^1.1.1",
-    "@types/semver": "^7.3.4",
+    "@types/semver": "^7.3.9",
     "cli-ux": "^6.0.6",
     "cross-spawn": "^7.0.3",
     "debug": "^4.3.1",
