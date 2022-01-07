@@ -4,17 +4,17 @@
     <img src=".github/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">@sumwatshade/oclif-plugin-update</h3>
+  <h3 align="center">@intuit/oclif-plugin-update</h3>
 </p>
 
 
 A fork of @oclif/plugin-update that mimics an [NVM](https://github.com/nvm-sh/nvm)-like experience
 
-[![Version](https://img.shields.io/npm/v/@sumwatshade/oclif-plugin-update.svg)](https://npmjs.org/package/@sumwatshade/oclif-plugin-update)
-![CI Job](https://github.com/sumwatshade/plugin-update/actions/workflows/ci.yml/badge.svg)
-![Release Job](https://github.com/sumwatshade/plugin-update/actions/workflows/npm-publish.yml/badge.svg)
-[![Downloads/week](https://img.shields.io/npm/dw/@sumwatshade/oclif-plugin-update.svg)](https://npmjs.org/package/@sumwatshade/oclif-plugin-update)
-[![License](https://img.shields.io/npm/l/@sumwatshade/oclif-plugin-update.svg)](https://github.com/sumwatshade/plugin-update/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@intuit/oclif-plugin-update.svg)](https://npmjs.org/package/@intuit/oclif-plugin-update)
+![CI Job](https://github.com/intuit/plugin-update/actions/workflows/ci.yml/badge.svg)
+![Release Job](https://github.com/intuit/plugin-update/actions/workflows/npm-publish.yml/badge.svg)
+[![Downloads/week](https://img.shields.io/npm/dw/@intuit/oclif-plugin-update.svg)](https://npmjs.org/package/@intuit/oclif-plugin-update)
+[![License](https://img.shields.io/npm/l/@intuit/oclif-plugin-update.svg)](https://github.com/intuit/plugin-update/blob/master/package.json)
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -50,7 +50,7 @@ ARGUMENTS
   VERSION  Specify an explicit version (ex. 3.0.0-next.1) or a channel (ex. alpha)
 ```
 
-_See code: [src/commands/install.ts](https://github.com/sumwatshade/plugin-update/blob/v1.9.4/src/commands/install.ts)_
+_See code: [src/commands/install.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/install.ts)_
 
 ## `oclif-example update [CHANNEL]`
 
@@ -67,7 +67,7 @@ OPTIONS
   --from-local  interactively choose an already installed version
 ```
 
-_See code: [src/commands/update.ts](https://github.com/sumwatshade/plugin-update/blob/v1.9.4/src/commands/update.ts)_
+_See code: [src/commands/update.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/update.ts)_
 
 ## `oclif-example use [VERSION]`
 
@@ -81,7 +81,7 @@ ARGUMENTS
   VERSION  Specify an explicit version (ex. 3.0.0-next.1) or a channel (ex. alpha)
 ```
 
-_See code: [src/commands/use.ts](https://github.com/sumwatshade/plugin-update/blob/v1.9.4/src/commands/use.ts)_
+_See code: [src/commands/use.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/use.ts)_
 <!-- commandsstop -->
 
 ## Contributing

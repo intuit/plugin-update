@@ -60,7 +60,7 @@ export default class UpdateCommand extends Command {
 
     if (await isSemverAlias(this.channel)) {
       throw new Error(
-        `We do not yet support major/minor aliases with the update command. Please refer to this issue for updates on the enhancement: https://github.com/sumwatshade/plugin-update/issues/32`,
+        `We do not yet support major/minor aliases with the update command. Please refer to this issue for updates on the enhancement: https://github.com/intuit/plugin-update/issues/32`,
       );
     }
 
