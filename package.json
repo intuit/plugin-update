@@ -82,6 +82,9 @@
       "@oclif/plugin-help"
     ]
   },
+  "release": {
+    "branches": ["main", "next"]
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
