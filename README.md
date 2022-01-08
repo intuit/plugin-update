@@ -50,7 +50,7 @@ ARGUMENTS
   VERSION  Specify an explicit version (ex. 3.0.0-next.1) or a channel (ex. alpha)
 ```
 
-_See code: [src/commands/install.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/install.ts)_
+_See code: [src/commands/install.ts](https://github.com/intuit/plugin-update/blob/v1.4.0/src/commands/install.ts)_
 
 ## `oclif-example update [CHANNEL]`
 
@@ -67,7 +67,7 @@ OPTIONS
   --from-local  interactively choose an already installed version
 ```
 
-_See code: [src/commands/update.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/update.ts)_
+_See code: [src/commands/update.ts](https://github.com/intuit/plugin-update/blob/v1.4.0/src/commands/update.ts)_
 
 ## `oclif-example use [VERSION]`
 
@@ -81,7 +81,7 @@ ARGUMENTS
   VERSION  Specify an explicit version (ex. 3.0.0-next.1) or a channel (ex. alpha)
 ```
 
-_See code: [src/commands/use.ts](https://github.com/intuit/plugin-update/blob/v1.9.4/src/commands/use.ts)_
+_See code: [src/commands/use.ts](https://github.com/intuit/plugin-update/blob/v1.4.0/src/commands/use.ts)_
 <!-- commandsstop -->
 
 ## Contributing

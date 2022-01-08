@@ -1,6 +1,6 @@
 {
   "name": "@intuit/oclif-plugin-update",
-  "version": "1.9.4",
+  "version": "1.4.0",
   "author": "Lucas Shadler @sumwatshade",
   "bugs": "https://github.com/intuit/plugin-update/issues",
   "dependencies": {
@@ -83,7 +83,10 @@
     ]
   },
   "release": {
-    "branches": ["main", "next"]
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

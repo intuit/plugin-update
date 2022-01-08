@@ -1,3 +1,81 @@
+# [1.4.0](https://github.com/intuit/plugin-update/compare/v1.3.10...v1.4.0) (2022-01-08)
+
+
+### Bug Fixes
+
+* add docs for each command ([1066934](https://github.com/intuit/plugin-update/commit/1066934dd31bb0eb2e4371a557184e5f5054bd9d))
+* add explicit version check ([6a41c1a](https://github.com/intuit/plugin-update/commit/6a41c1a65d5b39c919cc23c7dcc18212f53d483c))
+* add public release config ([db7cec9](https://github.com/intuit/plugin-update/commit/db7cec9bcc545afe8102fcd570502eab26bb253d))
+* add success msg + fix tar ext ([e7c5729](https://github.com/intuit/plugin-update/commit/e7c5729fe0fae1382b5f1894155d058c9518b644))
+* build on ci ([b088955](https://github.com/intuit/plugin-update/commit/b0889554d7614e0977926b40e432e501ef6a4af4))
+* channel determination null checking ([a266120](https://github.com/intuit/plugin-update/commit/a266120eddb46ab4c057507923cc36cead76b486))
+* check if channelUpdateRequested is req ([4685a72](https://github.com/intuit/plugin-update/commit/4685a72dfa8a7b37075a727990fe53d2ada8cd44))
+* code organization and prep for requests around installation aliases ([1c7791d](https://github.com/intuit/plugin-update/commit/1c7791d65823b87c1b3e6ae10099a403f0aab9b6))
+* configuration changes ([8638fbd](https://github.com/intuit/plugin-update/commit/8638fbd771842317e5d6b8a73af604bd691d0de4))
+* deps and build ([b6cbc15](https://github.com/intuit/plugin-update/commit/b6cbc158b12e72c883d88a6598ee66af8557fe40))
+* determine current version helper ([#212](https://github.com/intuit/plugin-update/issues/212)) ([94e7d61](https://github.com/intuit/plugin-update/commit/94e7d61719f630502c360b2e69a09528558391fe))
+* errors ([6e0eb3d](https://github.com/intuit/plugin-update/commit/6e0eb3dbfe487d8b2cfc5d97c6efd353c28c8181))
+* extract symlinks from node modules ([52fc421](https://github.com/intuit/plugin-update/commit/52fc4212fda8475bc1b0141720514af7dcc373f3))
+* first pass formatting ([5d82adc](https://github.com/intuit/plugin-update/commit/5d82adca2cff7fade36f7832e17fec6640eb11f8))
+* lint ([3be6770](https://github.com/intuit/plugin-update/commit/3be6770c113e89e1b4ff3b282f68a7e5a7259137))
+* no reexec on install ([f55aa79](https://github.com/intuit/plugin-update/commit/f55aa795905f89eacc2579556b8cdb196bdc6aa0))
+* node 10 in prs ([a6e1094](https://github.com/intuit/plugin-update/commit/a6e1094fc5d190ec2dc4b98458344304363d139d))
+* null checking on client root ([fed04a3](https://github.com/intuit/plugin-update/commit/fed04a39a58f86c0ee69b8626b57b67f61c1816b))
+* prettier ([142ef3e](https://github.com/intuit/plugin-update/commit/142ef3ec0f9a1f7b24ae072b1b8cf35579877521))
+* propagate channel information ([d676bb8](https://github.com/intuit/plugin-update/commit/d676bb8996bbe46315ae809a4c59009c26b8c393))
+* release a version ([a67e8fa](https://github.com/intuit/plugin-update/commit/a67e8fa4426f1880905344e71d7873207a0b7b95))
+* release on main ([#2](https://github.com/intuit/plugin-update/issues/2)) ([5d8822a](https://github.com/intuit/plugin-update/commit/5d8822a913245d7cf5226118bd9dc90d2e2d94e9))
+* remove install command ([6784f81](https://github.com/intuit/plugin-update/commit/6784f81e0daa2138cab5c2ec979cd775051a3f3f))
+* remove oclif references ([3d6acd2](https://github.com/intuit/plugin-update/commit/3d6acd24cc530f1e814c782326c9755837add7f3))
+* remove sha when extracting target version ([67dfe55](https://github.com/intuit/plugin-update/commit/67dfe553a4a728a6d9d988aa69c94ae7b321afcf))
+* respect prettier config in ide ([2382a3e](https://github.com/intuit/plugin-update/commit/2382a3ef9906b5f3d5571992b5f4ec1babc8de28))
+* run lint on CI ([0e288a7](https://github.com/intuit/plugin-update/commit/0e288a7dae5f0f463b2254df6828045e9149c743))
+* small tweak ([70e7674](https://github.com/intuit/plugin-update/commit/70e76746568674fc343e47dcf275ac9cdc5c1f48))
+* stable resolution ([92c3493](https://github.com/intuit/plugin-update/commit/92c3493ecb64c9f034440729917b332161d1dd93))
+* strict prerelease channels ([3e4af7a](https://github.com/intuit/plugin-update/commit/3e4af7abc48da7e44071b36ff2b8a8d12b50ad94))
+* strip partials ([56383cf](https://github.com/intuit/plugin-update/commit/56383cfaf85a731fc712e67fd33305a41d8ee153))
+* symlink resolution for older builds ([fbd48df](https://github.com/intuit/plugin-update/commit/fbd48dff5ff6be52b1df7bb1858855d2205f88b5))
+* tdd for use command ([a527b31](https://github.com/intuit/plugin-update/commit/a527b31f37c0cf75292658ec1f9802cc06e3ab69))
+* test deployment ([4c01af7](https://github.com/intuit/plugin-update/commit/4c01af7708be73ab47fa20e48f6b4ba160d89d61))
+* test deployment ([e7d87eb](https://github.com/intuit/plugin-update/commit/e7d87ebc4af25b7656fa42fabbc32308aac9b61f))
+* test downloadAndExtract ([b5919bb](https://github.com/intuit/plugin-update/commit/b5919bbf4331608abcfbb593b300a20ee3e041ff))
+* test downloadAndExtract ([8a7ab05](https://github.com/intuit/plugin-update/commit/8a7ab0533083ddec15eda17e69d89de9843a0a24))
+* tests ([eea1b80](https://github.com/intuit/plugin-update/commit/eea1b80a8644e2c229bc03f800f7b63fa5f47e11))
+* tests ([d0a8e3e](https://github.com/intuit/plugin-update/commit/d0a8e3e587b4d2f6c1f6aa24019276589e939034))
+* udpate channel to stable if version request is not a diff channel ([5314226](https://github.com/intuit/plugin-update/commit/531422650d2d7a3aa5dc0ecbcd2d97c6837badc3))
+* update channel ([0597f6e](https://github.com/intuit/plugin-update/commit/0597f6e453eb3bb417df5372775697da65da01d4))
+* update command revert ([2edd0a4](https://github.com/intuit/plugin-update/commit/2edd0a4b6d8384a4269f75759281c92af83e5e92))
+* update comment ([2f8dc5c](https://github.com/intuit/plugin-update/commit/2f8dc5cbb0b91b18a84d05eab50bb42631a9414a))
+* update formatting ([ab71f47](https://github.com/intuit/plugin-update/commit/ab71f47117d0cea413480a1b0236e513e75ca6d1))
+* use 14 for publish ([a74451d](https://github.com/intuit/plugin-update/commit/a74451d67417ad64a52578f0128c14b3fcb605a6))
+* use clientBin property for reading version ([#226](https://github.com/intuit/plugin-update/issues/226)) ([800dba6](https://github.com/intuit/plugin-update/commit/800dba6798b5187b2e8f108287681505aeddc7f9))
+* use config ([01c6f9d](https://github.com/intuit/plugin-update/commit/01c6f9d8705a4cd5bc7044c85a2f70f08d58c2ba))
+* use github actions ([7a92029](https://github.com/intuit/plugin-update/commit/7a920299e9f5387a1dca562dde50ea071b0a58df))
+* work in node 10 ([#38](https://github.com/intuit/plugin-update/issues/38)) ([1b01541](https://github.com/intuit/plugin-update/commit/1b01541d0464b0d37f694f2b1bb98610c651ab5e))
+
+
+### Features
+
+* add success msg and improved error msg ([a14001f](https://github.com/intuit/plugin-update/commit/a14001fc4716e821be7c41925ac936e3882af482))
+* cut over to intuit namespace ([#1](https://github.com/intuit/plugin-update/issues/1)) ([4c08ec3](https://github.com/intuit/plugin-update/commit/4c08ec380b629b36206867ebff8970d1e3260ba6))
+* pass in specific version ([7bbb48e](https://github.com/intuit/plugin-update/commit/7bbb48e942e7d5b3fdb351f42832acc242c9b1f6))
+* provide major versions ([9ac3c71](https://github.com/intuit/plugin-update/commit/9ac3c7172a57168899e05fca802ff54599fa031a))
+* save clients nested via their git sha ([#211](https://github.com/intuit/plugin-update/issues/211)) ([fc81773](https://github.com/intuit/plugin-update/commit/fc81773d189f01ea15eaa8dc78ef3d7c1d9fa435))
+* support oclif upload/promote cmds new s3 key structure ([#204](https://github.com/intuit/plugin-update/issues/204)) ([c2d7a46](https://github.com/intuit/plugin-update/commit/c2d7a469f58c180b59af9c0b24b6c35bd531f964))
+* tweak behavior ([a218149](https://github.com/intuit/plugin-update/commit/a218149bf1cb935fcbac4cd326a9650f9b213fcf))
+* update install command ([6cecef6](https://github.com/intuit/plugin-update/commit/6cecef6c7d870ec6c6aa7d215b5063b9dd9b8a0c))
+* update use command ([598af92](https://github.com/intuit/plugin-update/commit/598af9288080036fb29e0b658057f3824f6eb151))
+* use existing versions if available ([#223](https://github.com/intuit/plugin-update/issues/223)) ([da27783](https://github.com/intuit/plugin-update/commit/da27783f710b1856c619b3721b7ff91b2f0dd92b))
+
+
+### Reverts
+
+* Revert "feat(switching): allows cli to switch versions with param" ([e51fc48](https://github.com/intuit/plugin-update/commit/e51fc4868b79e60f514f29d46d167432953d0760))
+* Revert "chore: pull versions back into local section" ([f3fbad3](https://github.com/intuit/plugin-update/commit/f3fbad3e4f17582bec63fdb77ae01d19fb72fa04))
+* Revert "fix: ensure tarball is extracted correctly" ([d941769](https://github.com/intuit/plugin-update/commit/d94176943ae84e2df624e98d32176ced4fe781be))
+* Revert "chore: clear yarn lockfile changes" ([f974883](https://github.com/intuit/plugin-update/commit/f9748831c82a71fb21e2c50cf8f026bb9a37113d))
+* Revert "fix: preserve old behavior" ([d06de48](https://github.com/intuit/plugin-update/commit/d06de4814d99ea225041b2c4f0c0169f3116e2f6))
+
 ## [1.9.4](https://github.com/sumwatshade/plugin-update/compare/v1.9.3...v1.9.4) (2021-09-27)
 
 
