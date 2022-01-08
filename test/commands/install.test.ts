@@ -154,7 +154,7 @@ describe('Install Command', () => {
     }
 
     expect(err.message).toBe(
-      `We do not yet support major/minor aliases with the install command. Please refer to this issue for updates: https://github.com/sumwatshade/plugin-update/issues/32`,
+      `We do not yet support major/minor aliases with the install command. Please refer to this issue for updates: https://github.com/intuit/plugin-update/issues/32`,
     );
   });
 
