@@ -1,6 +1,6 @@
 {
   "name": "@intuit/oclif-plugin-update",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "author": "Lucas Shadler @sumwatshade",
   "bugs": "https://github.com/intuit/plugin-update/issues",
   "dependencies": {

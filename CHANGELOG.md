@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/intuit/plugin-update/compare/v1.9.5...v1.9.6) (2022-01-08)
+
+
+### Bug Fixes
+
+* update context to appropriately account for new version ([#3](https://github.com/intuit/plugin-update/issues/3)) ([d27c12e](https://github.com/intuit/plugin-update/commit/d27c12eaaa94b0b9697177eaa15d3ae1afb624cc))
+
 # [1.4.0](https://github.com/intuit/plugin-update/compare/v1.3.10...v1.4.0) (2022-01-08)
 
 
